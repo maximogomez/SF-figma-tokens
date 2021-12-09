@@ -2,24 +2,72 @@
   "global": {
     "brand": {
       "primary": {
-        "down--main": {
+        "down": {
           "value": "#FAF79B",
           "type": "color"
         },
-        "air--main": {
+        "air": {
           "value": "#DEEFFF",
           "type": "color"
         },
-        "front--main": {
+        "front": {
           "value": "#A2E0CE",
           "type": "color"
         },
-        "day--main": {
+        "day": {
           "value": "#F7866D",
           "type": "color"
         },
-        "white--main": {
+        "white": {
           "value": "#fff",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "dusk": {
+          "value": "#686DC4",
+          "type": "color"
+        },
+        "storm": {
+          "value": "#007364",
+          "type": "color"
+        },
+        "night": {
+          "value": "#403E6B",
+          "type": "color"
+        },
+        "midnight": {
+          "value": "#1B1B2E",
+          "type": "color"
+        },
+        "lunar": {
+          "value": "#3E3E4E",
+          "type": "color"
+        }
+      },
+      "gray": {
+        "3%": {
+          "value": "#F7F7F7",
+          "type": "color"
+        },
+        "6%": {
+          "value": "#F0F0F0",
+          "type": "color"
+        },
+        "9%": {
+          "value": "#E8E8E8",
+          "type": "color"
+        },
+        "12%": {
+          "value": "#E0E0E0",
+          "type": "color"
+        },
+        "15%": {
+          "value": "#D9D9D9",
+          "type": "color"
+        },
+        "18%": {
+          "value": "#D1D1D1",
           "type": "color"
         }
       }
