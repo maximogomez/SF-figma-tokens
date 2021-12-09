@@ -194,5 +194,15 @@
         "type": "textDecoration"
       }
     }
+  },
+  "light": {
+    "ui": {
+      "text": {
+        "heading": {
+          "value": "$brand.secondary.night",
+          "type": "color"
+        }
+      }
+    }
   }
 }
