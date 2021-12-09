@@ -198,11 +198,12 @@
   "light": {
     "ui": {
       "text": {
-        "heading": {
+        "headings": {
           "value": "$brand.secondary.night",
           "type": "color"
         }
       }
     }
-  }
+  },
+  "dark": {}
 }
