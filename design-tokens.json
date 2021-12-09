@@ -1,1 +1,148 @@
-
+{
+  "global": {
+    "brand": {
+      "primary": {
+        "down--main": {
+          "value": "#FAF79B",
+          "type": "color"
+        },
+        "air--main": {
+          "value": "#DEEFFF",
+          "type": "color"
+        },
+        "front--main": {
+          "value": "#A2E0CE",
+          "type": "color"
+        },
+        "day--main": {
+          "value": "#F7866D",
+          "type": "color"
+        },
+        "white--main": {
+          "value": "#fff",
+          "type": "color"
+        }
+      }
+    },
+    "fontFamilies": {
+      "cosmica": {
+        "value": "Cosmica",
+        "type": "fontFamilies"
+      },
+      "gt-pressura-mono": {
+        "value": "GT Pressura Mono",
+        "type": "fontFamilies"
+      }
+    },
+    "lineHeights": {
+      "0": {
+        "value": "AUTO",
+        "type": "lineHeights"
+      },
+      "1": {
+        "value": "160%",
+        "type": "lineHeights"
+      },
+      "2": {
+        "value": "140%",
+        "type": "lineHeights"
+      }
+    },
+    "fontWeights": {
+      "cosmica-0": {
+        "value": "Bold",
+        "type": "fontWeights"
+      },
+      "cosmica-1": {
+        "value": "Medium",
+        "type": "fontWeights"
+      },
+      "cosmica-2": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "gt-pressura-mono-3": {
+        "value": "Regular",
+        "type": "fontWeights"
+      }
+    },
+    "fontSize": {
+      "0": {
+        "value": "12",
+        "type": "fontSizes"
+      },
+      "1": {
+        "value": "14",
+        "type": "fontSizes"
+      },
+      "2": {
+        "value": "16",
+        "type": "fontSizes"
+      },
+      "3": {
+        "value": "18",
+        "type": "fontSizes"
+      },
+      "4": {
+        "value": "20",
+        "type": "fontSizes"
+      },
+      "5": {
+        "value": "24",
+        "type": "fontSizes"
+      },
+      "6": {
+        "value": "28",
+        "type": "fontSizes"
+      },
+      "7": {
+        "value": "32",
+        "type": "fontSizes"
+      }
+    },
+    "letterSpacing": {
+      "0": {
+        "value": "0%",
+        "type": "letterSpacing"
+      },
+      "1": {
+        "value": "6%",
+        "type": "letterSpacing"
+      },
+      "2": {
+        "value": "2%",
+        "type": "letterSpacing"
+      },
+      "3": {
+        "value": "4%",
+        "type": "letterSpacing"
+      }
+    },
+    "paragraphSpacing": {
+      "0": {
+        "value": "0",
+        "type": "paragraphSpacing"
+      }
+    },
+    "textCase": {
+      "none": {
+        "value": "none",
+        "type": "textCase"
+      },
+      "uppercase": {
+        "value": "uppercase",
+        "type": "textCase"
+      }
+    },
+    "textDecoration": {
+      "none": {
+        "value": "none",
+        "type": "textDecoration"
+      },
+      "underline": {
+        "value": "underline",
+        "type": "textDecoration"
+      }
+    }
+  }
+}
