@@ -27,11 +27,13 @@
     "fontFamilies": {
       "cosmica": {
         "value": "Cosmica",
-        "type": "fontFamilies"
+        "type": "fontFamilies",
+        "description": "Mostly used for heading and CTAs, and never for body or small text"
       },
       "gt-pressura-mono": {
         "value": "GT Pressura Mono",
-        "type": "fontFamilies"
+        "type": "fontFamilies",
+        "description": "Mostly used for code and some related content"
       }
     },
     "lineHeights": {
