@@ -193,13 +193,23 @@
         "value": "underline",
         "type": "textDecoration"
       }
-    }
-  },
-  "ui-light": {
-    "text": {
-      "headings": {
-        "value": "$brand.secondary.night",
-        "type": "color"
+    },
+    "theme": {
+      "light": {
+        "text": {
+          "headings": {
+            "value": "$brand.secondary.night",
+            "type": "color"
+          }
+        }
+      },
+      "dark": {
+        "text": {
+          "headings": {
+            "value": "$brand.primary.white",
+            "type": "color"
+          }
+        }
       }
     }
   }
