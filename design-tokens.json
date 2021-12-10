@@ -46,27 +46,27 @@
         }
       },
       "gray": {
-        "3%": {
+        "3": {
           "value": "#F7F7F7",
           "type": "color"
         },
-        "6%": {
+        "6": {
           "value": "#F0F0F0",
           "type": "color"
         },
-        "9%": {
+        "9": {
           "value": "#E8E8E8",
           "type": "color"
         },
-        "12%": {
+        "12": {
           "value": "#E0E0E0",
           "type": "color"
         },
-        "15%": {
+        "15": {
           "value": "#D9D9D9",
           "type": "color"
         },
-        "18%": {
+        "18": {
           "value": "#D1D1D1",
           "type": "color"
         }
@@ -199,6 +199,72 @@
         "text": {
           "headings": {
             "value": "$brand.secondary.night",
+            "type": "color"
+          },
+          "body": {
+            "value": "$brand.secondary.lunar",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "#A3A3A3",
+            "description": "Not available in the brand palette",
+            "type": "color"
+          },
+          "links": {
+            "value": "$brand.secondary.dusk",
+            "type": "color"
+          },
+          "code": {
+            "primary": {
+              "value": "$brand.secondary.storm",
+              "type": "color"
+            },
+            "secondary": {
+              "value": "$brand.secondary.night",
+              "type": "color"
+            },
+            "tertiary": {
+              "value": "$brand.secondary.dusk",
+              "type": "color"
+            }
+          }
+        },
+        "layout": {
+          "bg1": {
+            "value": "$brand.primary.white",
+            "description": "Mostly used as the main background color for the whole page",
+            "type": "color"
+          },
+          "bg2": {
+            "value": "$brand.gray.3",
+            "description": "Use it for secondary elements or cards to differientiate them from the page background",
+            "type": "color"
+          },
+          "line": {
+            "value": "$brand.gray.12",
+            "type": "color"
+          }
+        },
+        "accent": {
+          "primary": {
+            "value": "$brand.primary.day",
+            "description": "Use it for small but important highlights",
+            "type": "color"
+          },
+          "secondary": {
+            "value": "$brand.primary.front",
+            "type": "color"
+          },
+          "tertiary": {
+            "value": "$brand.primary.down",
+            "type": "color"
+          },
+          "quaternary": {
+            "value": "$brand.primary.air",
+            "type": "color"
+          },
+          "quinary": {
+            "value": "$brand.secondary.dusk",
             "type": "color"
           }
         }
