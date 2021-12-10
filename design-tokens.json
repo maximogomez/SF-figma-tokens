@@ -245,6 +245,11 @@
               "value": "$brand.secondary.dusk",
               "type": "color"
             }
+          },
+          "inverted": {
+            "value": "$brand.primary.white",
+            "description": "Used for text over dark backgrounds",
+            "type": "color"
           }
         },
         "layout": {
