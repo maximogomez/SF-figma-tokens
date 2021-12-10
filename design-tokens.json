@@ -598,6 +598,10 @@
     "x20": {
       "value": "$x1 * 20",
       "type": "spacing"
+    },
+    "0,5": {
+      "value": "$x1 / 2",
+      "type": "spacing"
     }
   }
 }
