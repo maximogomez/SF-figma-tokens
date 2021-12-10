@@ -296,11 +296,6 @@
         }
       }
     },
-    "Open Sans": {
-      "value": "Open Sans",
-      "description": "Mostly used for body, content, and other small text formats.",
-      "type": "fontFamilies"
-    },
     "Desktop": {
       "Heading": {
         "H1": {
@@ -518,6 +513,86 @@
           "type": "typography"
         }
       }
+    },
+    "x1": {
+      "value": "4",
+      "type": "spacing"
+    },
+    "x2": {
+      "value": "{x1} * 2",
+      "type": "spacing"
+    },
+    "x3": {
+      "value": "{x1} * 3",
+      "type": "spacing"
+    },
+    "x4": {
+      "value": "{x1} * 4",
+      "type": "spacing"
+    },
+    "x5": {
+      "value": "{x1} * 5",
+      "type": "spacing"
+    },
+    "x6": {
+      "value": "{x1} * 6",
+      "type": "spacing"
+    },
+    "x7": {
+      "value": "$x1 * 7",
+      "type": "spacing"
+    },
+    "x8": {
+      "value": "$x1 * 8",
+      "type": "spacing"
+    },
+    "x9": {
+      "value": "$x1 * 9",
+      "type": "spacing"
+    },
+    "x10": {
+      "value": "$x1 * 10",
+      "type": "spacing"
+    },
+    "x11": {
+      "value": "$x1 * 11",
+      "type": "spacing"
+    },
+    "x12": {
+      "value": "$x1 * 12",
+      "type": "spacing"
+    },
+    "X13": {
+      "value": "$x1 * 13",
+      "type": "spacing"
+    },
+    "X14": {
+      "value": "$x1 * 14",
+      "type": "spacing"
+    },
+    "x15": {
+      "value": "$x1 * 15",
+      "type": "spacing"
+    },
+    "x16": {
+      "value": "$x1 * 16",
+      "type": "spacing"
+    },
+    "x17": {
+      "value": "$x1 * 17",
+      "type": "spacing"
+    },
+    "x18": {
+      "value": "$x1 * 18",
+      "type": "spacing"
+    },
+    "x19": {
+      "value": "$x1 * 19",
+      "type": "spacing"
+    },
+    "x20": {
+      "value": "$x1 * 20",
+      "type": "spacing"
     }
   }
 }
