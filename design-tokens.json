@@ -519,88 +519,89 @@
         }
       }
     },
-    "x1": {
+    "base": {
       "value": "4",
-      "type": "spacing"
+      "type": "spacing",
+      "description": "This is the base value used to do the math for the rest of the proportional increments."
     },
     "x2": {
-      "value": "{x1} * 2",
+      "value": "{base} * 2",
       "type": "spacing"
     },
     "x3": {
-      "value": "{x1} * 3",
+      "value": "{base} * 3",
       "type": "spacing"
     },
     "x4": {
-      "value": "{x1} * 4",
+      "value": "{base} * 4",
       "type": "spacing"
     },
     "x5": {
-      "value": "{x1} * 5",
+      "value": "{base} * 5",
       "type": "spacing"
     },
     "x6": {
-      "value": "{x1} * 6",
+      "value": "{base} * 6",
       "type": "spacing"
     },
     "x7": {
-      "value": "$x1 * 7",
+      "value": "{base} * 7",
       "type": "spacing"
     },
     "x8": {
-      "value": "$x1 * 8",
+      "value": "{base} * 8",
       "type": "spacing"
     },
     "x9": {
-      "value": "$x1 * 9",
+      "value": "{base} * 9",
       "type": "spacing"
     },
     "x10": {
-      "value": "$x1 * 10",
+      "value": "{base} * 10",
       "type": "spacing"
     },
     "x11": {
-      "value": "$x1 * 11",
+      "value": "{base} * 11",
       "type": "spacing"
     },
     "x12": {
-      "value": "$x1 * 12",
+      "value": "{base} * 12",
       "type": "spacing"
     },
     "X13": {
-      "value": "$x1 * 13",
+      "value": "{base} * 13",
       "type": "spacing"
     },
     "X14": {
-      "value": "$x1 * 14",
+      "value": "{base} * 14",
       "type": "spacing"
     },
     "x15": {
-      "value": "$x1 * 15",
+      "value": "{base} * 15",
       "type": "spacing"
     },
     "x16": {
-      "value": "$x1 * 16",
+      "value": "{base} * 16",
       "type": "spacing"
     },
     "x17": {
-      "value": "$x1 * 17",
+      "value": "{base} * 17",
       "type": "spacing"
     },
     "x18": {
-      "value": "$x1 * 18",
+      "value": "{base} * 18",
       "type": "spacing"
     },
     "x19": {
-      "value": "$x1 * 19",
+      "value": "{base} * 19",
       "type": "spacing"
     },
     "x20": {
-      "value": "$x1 * 20",
+      "value": "{base} * 20",
       "type": "spacing"
     },
     "0,5": {
-      "value": "$x1 / 2",
+      "value": "{base} / 2",
       "type": "spacing"
     }
   }
