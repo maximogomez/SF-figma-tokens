@@ -3,29 +3,29 @@
     "brand": {
       "primary": {
         "down": {
-          "value": "#FAF79B",
+          "value": "#faf79b",
           "type": "color"
         },
         "air": {
-          "value": "#DEEFFF",
+          "value": "#deefff",
           "type": "color"
         },
         "front": {
-          "value": "#A2E0CE",
+          "value": "#a2e0ce",
           "type": "color"
         },
         "day": {
-          "value": "#F7866D",
+          "value": "#f7866d",
           "type": "color"
         },
         "white": {
-          "value": "#FFF",
+          "value": "#ffffff",
           "type": "color"
         }
       },
       "secondary": {
         "dusk": {
-          "value": "#686DC4",
+          "value": "#686dc4",
           "type": "color"
         },
         "storm": {
@@ -33,41 +33,41 @@
           "type": "color"
         },
         "night": {
-          "value": "#403E6B",
+          "value": "#403e6b",
           "type": "color"
         },
         "midnight": {
-          "value": "#1B1B2E",
+          "value": "#1b1b2e",
           "type": "color"
         },
         "lunar": {
-          "value": "#3E3E4E",
+          "value": "#3e3e4e",
           "type": "color"
         }
       },
       "gray": {
         "3": {
-          "value": "#F7F7F7",
+          "value": "#f7f7f7",
           "type": "color"
         },
         "6": {
-          "value": "#F0F0F0",
+          "value": "#f0f0f0",
           "type": "color"
         },
         "9": {
-          "value": "#E8E8E8",
+          "value": "#e8e8e8",
           "type": "color"
         },
         "12": {
-          "value": "#E0E0E0",
+          "value": "#e0e0e0",
           "type": "color"
         },
         "15": {
-          "value": "#D9D9D9",
+          "value": "#d9d9d9",
           "type": "color"
         },
         "18": {
-          "value": "#D1D1D1",
+          "value": "#d1d1d1",
           "type": "color"
         }
       }
@@ -216,78 +216,78 @@
       "light": {
         "text": {
           "headings": {
-            "value": "$brand.secondary.night",
+            "value": "#403e6b",
             "type": "color"
           },
           "body": {
-            "value": "$brand.secondary.lunar",
+            "value": "#3e3e4e",
             "type": "color"
           },
           "secondary": {
-            "value": "#A3A3A3",
+            "value": "#a3a3a3",
             "description": "Not available in the brand palette",
             "type": "color"
           },
           "links": {
-            "value": "$brand.secondary.dusk",
+            "value": "#686dc4",
             "type": "color"
           },
           "code": {
             "primary": {
-              "value": "$brand.secondary.storm",
+              "value": "#007364",
               "type": "color"
             },
             "secondary": {
-              "value": "$brand.secondary.night",
+              "value": "#403e6b",
               "type": "color"
             },
             "tertiary": {
-              "value": "$brand.secondary.dusk",
+              "value": "#686dc4",
               "type": "color"
             }
           },
           "inverted": {
-            "value": "$brand.primary.white",
+            "value": "#ffffff",
             "description": "Used for text over dark backgrounds",
             "type": "color"
           }
         },
         "layout": {
           "bg1": {
-            "value": "$brand.primary.white",
+            "value": "#ffffff",
             "description": "Mostly used as the main background color for the whole page",
             "type": "color"
           },
           "bg2": {
-            "value": "$brand.gray.3",
+            "value": "#f7f7f7",
             "description": "Use it for secondary elements or cards to differientiate them from the page background",
             "type": "color"
           },
           "line": {
-            "value": "$brand.gray.12",
+            "value": "#e0e0e0",
             "type": "color"
           }
         },
         "accent": {
           "primary": {
-            "value": "$brand.primary.day",
+            "value": "#f7866d",
             "description": "Use it for small but important highlights",
             "type": "color"
           },
           "secondary": {
-            "value": "$brand.primary.front",
+            "value": "#a2e0ce",
             "type": "color"
           },
           "tertiary": {
-            "value": "$brand.primary.down",
+            "value": "#faf79b",
             "type": "color"
           },
           "quaternary": {
-            "value": "$brand.primary.air",
+            "value": "#deefff",
             "type": "color"
           },
           "quinary": {
-            "value": "$brand.secondary.dusk",
+            "value": "#686dc4",
             "type": "color"
           }
         }
@@ -295,7 +295,7 @@
       "dark": {
         "text": {
           "headings": {
-            "value": "$brand.primary.white",
+            "value": "#ffffff",
             "type": "color"
           }
         }
@@ -516,6 +516,19 @@
             "textDecoration": "$textDecoration.none"
           },
           "type": "typography"
+        },
+        "Secondary": {
+          "value": {
+            "fontFamily": "$fontFamilies.gt-pressura-mono",
+            "fontWeight": "$fontWeights.gt-pressura-mono-5",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.1",
+            "letterSpacing": "$letterSpacing.2",
+            "paragraphSpacing": "$paragraphSpacing.0",
+            "textCase": "$textCase.none",
+            "textDecoration": "$textDecoration.none"
+          },
+          "type": "typography"
         }
       }
     },
@@ -607,6 +620,17 @@
         "value": "{base} * 20",
         "type": "spacing"
       }
+    },
+    "primary": {
+      "value": {
+        "color": "#0000000f",
+        "type": "dropShadow",
+        "x": 0,
+        "y": 0,
+        "blur": 16,
+        "spread": 0
+      },
+      "type": "boxShadow"
     }
   }
 }
