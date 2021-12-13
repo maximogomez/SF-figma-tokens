@@ -319,7 +319,7 @@
         "H2": {
           "value": {
             "fontFamily": "$fontFamilies.cosmica",
-            "fontWeight": "$fontWeights.cosmica-1",
+            "fontWeight": "$fontWeights.cosmica-0",
             "lineHeight": "$lineHeights.0",
             "fontSize": "$fontSize.6",
             "letterSpacing": "$letterSpacing.0",
@@ -332,7 +332,7 @@
         "H3": {
           "value": {
             "fontFamily": "$fontFamilies.cosmica",
-            "fontWeight": "$fontWeights.cosmica-1",
+            "fontWeight": "$fontWeights.cosmica-0",
             "lineHeight": "$lineHeights.0",
             "fontSize": "$fontSize.5",
             "letterSpacing": "$letterSpacing.0",
@@ -597,10 +597,10 @@
       "value": {
         "color": "#0000000f",
         "type": "dropShadow",
-        "x": "0",
-        "y": "0",
-        "blur": "16",
-        "spread": "0"
+        "x": 0,
+        "y": 0,
+        "blur": 16,
+        "spread": 0
       },
       "type": "boxShadow"
     }
