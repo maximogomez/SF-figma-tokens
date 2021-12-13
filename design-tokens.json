@@ -132,6 +132,10 @@
       "gt-pressura-mono-5": {
         "value": "Regular",
         "type": "fontWeights"
+      },
+      "gt-pressura-mono-4": {
+        "value": "Regular",
+        "type": "fontWeights"
       }
     },
     "fontSize": {
@@ -466,7 +470,7 @@
         "Primary": {
           "value": {
             "fontFamily": "$fontFamilies.cosmica",
-            "fontWeight": "$fontWeights.cosmica-0",
+            "fontWeight": "$fontWeights.cosmica-1",
             "lineHeight": "$lineHeights.0",
             "fontSize": "$fontSize.1",
             "letterSpacing": "$letterSpacing.0",
@@ -478,8 +482,8 @@
         },
         "Secondary": {
           "value": {
-            "fontFamily": "$fontFamilies.cosmica",
-            "fontWeight": "$fontWeights.cosmica-4",
+            "fontFamily": "$fontFamilies.open-sans",
+            "fontWeight": "$fontWeights.open-sans-2",
             "lineHeight": "$lineHeights.0",
             "fontSize": "$fontSize.1",
             "letterSpacing": "$letterSpacing.0",
@@ -494,7 +498,7 @@
         "Primary": {
           "value": {
             "fontFamily": "$fontFamilies.gt-pressura-mono",
-            "fontWeight": "$fontWeights.gt-pressura-mono-5",
+            "fontWeight": "$fontWeights.gt-pressura-mono-4",
             "lineHeight": "$lineHeights.2",
             "fontSize": "$fontSize.2",
             "letterSpacing": "$letterSpacing.2",
@@ -507,7 +511,7 @@
         "All Caps": {
           "value": {
             "fontFamily": "$fontFamilies.gt-pressura-mono",
-            "fontWeight": "$fontWeights.gt-pressura-mono-5",
+            "fontWeight": "$fontWeights.gt-pressura-mono-4",
             "lineHeight": "$lineHeights.0",
             "fontSize": "$fontSize.0",
             "letterSpacing": "$letterSpacing.3",
@@ -520,10 +524,25 @@
         "Secondary": {
           "value": {
             "fontFamily": "$fontFamilies.gt-pressura-mono",
-            "fontWeight": "$fontWeights.gt-pressura-mono-5",
+            "fontWeight": "$fontWeights.gt-pressura-mono-4",
             "lineHeight": "$lineHeights.0",
             "fontSize": "$fontSize.1",
             "letterSpacing": "$letterSpacing.2",
+            "paragraphSpacing": "$paragraphSpacing.0",
+            "textCase": "$textCase.none",
+            "textDecoration": "$textDecoration.none"
+          },
+          "type": "typography"
+        }
+      },
+      "Action": {
+        "Secondary-medium": {
+          "value": {
+            "fontFamily": "$fontFamilies.open-sans",
+            "fontWeight": "$fontWeights.open-sans-3",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.1",
+            "letterSpacing": "$letterSpacing.0",
             "paragraphSpacing": "$paragraphSpacing.0",
             "textCase": "$textCase.none",
             "textDecoration": "$textDecoration.none"
