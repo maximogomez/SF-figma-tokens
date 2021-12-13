@@ -580,44 +580,16 @@
       }
     },
     "layout": {
-      "x11": {
-        "value": "{base} * 11",
-        "type": "spacing"
-      },
-      "x12": {
-        "value": "{base} * 12",
-        "type": "spacing"
-      },
-      "X13": {
-        "value": "{base} * 13",
-        "type": "spacing"
-      },
-      "X14": {
-        "value": "{base} * 14",
-        "type": "spacing"
-      },
       "x15": {
         "value": "{base} * 15",
         "type": "spacing"
       },
-      "x16": {
-        "value": "{base} * 16",
-        "type": "spacing"
-      },
-      "x17": {
-        "value": "{base} * 17",
-        "type": "spacing"
-      },
-      "x18": {
-        "value": "{base} * 18",
-        "type": "spacing"
-      },
-      "x19": {
-        "value": "{base} * 19",
-        "type": "spacing"
-      },
       "x20": {
         "value": "{base} * 20",
+        "type": "spacing"
+      },
+      "x30": {
+        "value": "{base} * 30",
         "type": "spacing"
       }
     },
@@ -625,10 +597,10 @@
       "value": {
         "color": "#0000000f",
         "type": "dropShadow",
-        "x": 0,
-        "y": 0,
-        "blur": 16,
-        "spread": 0
+        "x": "0",
+        "y": "0",
+        "blur": "16",
+        "spread": "0"
       },
       "type": "boxShadow"
     }
