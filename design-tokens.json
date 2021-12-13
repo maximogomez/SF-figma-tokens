@@ -492,6 +492,19 @@
             "textDecoration": "$textDecoration.none"
           },
           "type": "typography"
+        },
+        "Secondary-medium": {
+          "value": {
+            "fontFamily": "$fontFamilies.open-sans",
+            "fontWeight": "$fontWeights.open-sans-3",
+            "lineHeight": "$lineHeights.0",
+            "fontSize": "$fontSize.1",
+            "letterSpacing": "$letterSpacing.0",
+            "paragraphSpacing": "$paragraphSpacing.0",
+            "textCase": "$textCase.none",
+            "textDecoration": "$textDecoration.none"
+          },
+          "type": "typography"
         }
       },
       "Code": {
